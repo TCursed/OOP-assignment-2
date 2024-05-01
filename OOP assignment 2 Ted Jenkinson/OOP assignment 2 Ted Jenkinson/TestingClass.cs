@@ -35,7 +35,7 @@ namespace OOP_assignment_2_Ted_Jenkinson
                     }
                     Debug.Assert(sevensTotalTest == runningTotalSP1Test, "Sevens out is not adding the total up correctly");//checks to see if the total taken from sevens out class is being added correctly
                     int dieNumS1StopTotal = dieNumS1StopTest + dieNumS2StopTest + 1;
-                    Debug.Assert(dieNumS1StopTotal == 7, "The stop feature of sevens out is not adding the total correctly");//checks to see if the stop feature in the sevens out class is working correctly
+                    Debug.Assert(dieNumS1StopTotal != 7, "The stop feature of sevens out is not adding the total correctly");//checks to see if the stop feature in the sevens out class is working correctly
                 }
             }
             if(whatTest == "3")
